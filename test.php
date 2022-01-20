@@ -87,4 +87,5 @@ if($PRODUCT_ID = $el->Add($arLoadProductArray))
     echo "New ID: ".$PRODUCT_ID;
 else
     echo "Error: ".$el->LAST_ERROR;
+/* -----------------(end) создаю новую запись в инфоблоке и заполняю созданные выше свойства---------------*/
 
